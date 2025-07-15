@@ -1064,19 +1064,17 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .advantage {
     padding: 96px 0px;
   }
-  
- @media screen and (min-width: 768px) {
   .list-advantages {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
     row-gap: 72px;
-  }
-
-  .list-advantages .advantage-item {
-    width: calc((100% - 24px) / 2);
-  }
+    column-gap: 24px;
 }
+.advantage-item {
+  width: calc((100% - 24px) / 2);
+    margin: 0;
+}
+ 
   .team {
     background-color: #f4f4fd;
    
@@ -1141,6 +1139,7 @@ font-weight: 400;
     padding: 0px 108px;
     display: flex;
     flex-wrap: wrap;
+    
   }
   .footer-content {
     margin-right: 24px;
@@ -1179,7 +1178,7 @@ font-weight: 400;
     max-width: 1158px;
     padding: 0 15px;
   }
-}
+
   .header-navigation {
     gap: 76px;
   }
@@ -1224,7 +1223,10 @@ h1 {
     display: flex;
     column-gap: 24px;
   }
-
+.advantage-item {
+   width: calc((100% - 72px) / 4);
+    margin: 0;
+}
   .advantage-box{
     height: 112px;
     align-items: center;
@@ -1247,6 +1249,7 @@ h1 {
   .team{
     padding: 
   }
+  
   .team-list {
     column-gap: 24px;
   }
