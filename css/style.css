@@ -253,9 +253,9 @@ h1 {
   white-space: nowrap;
   clip-path: inset(100%);
 }
-.list-advantages {
 
-}
+
+
 
 
 @media (max-width: 768px) {
@@ -380,9 +380,7 @@ h1 {
   margin-bottom: 72px;
 }
 
-.portfolio-item {
 
-}
 .portfolio-img-wrapper {
   position: relative;
   overflow: hidden;
@@ -1192,7 +1190,7 @@ font-weight: 400;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
 }
-
+}
 
 /*Desktop-version*/
 
@@ -1269,9 +1267,7 @@ h1 {
     line-height: 1.2;
     text-align: start;
   }
-  .team {
-    padding: 
-  }
+  
   
   .team-list {
     column-gap: 24px;
