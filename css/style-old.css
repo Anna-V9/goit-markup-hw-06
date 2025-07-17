@@ -568,6 +568,15 @@ background-color: #31d0aa;
   margin-left: 16px;
   fill: #ffffff;
 }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
 .modal-overlay{
   position: fixed;
   top: 0;
